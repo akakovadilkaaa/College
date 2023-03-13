@@ -1,0 +1,125 @@
+
+.Footer{
+    
+    background-image: url('../images/footer-background.png');
+    height: 403px;
+    mix-blend-mode: exclusion;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+
+    
+}
+.footer{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000000;
+    opacity: 0.8;
+    backdrop-filter: blur(61.5px);
+}
+.nav-box{
+    /* background-color: lightblue; */
+    height: 300px;
+    width: 366px
+}
+.nav-box .items{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    list-style-type: none;
+
+    color: #9E9E9E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+     
+}
+.logo-box{
+    color: #FFFFFF;
+    height: 250px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-box .title{
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.logo-box .title2{
+    font-family: 'Actor';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.info-box{
+    height: 300px;
+    width:380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.info-box .address{
+    height: 90px;
+    display: flex;
+
+}
+.address .icon{
+    width: 30px;
+    margin-right: 5px;
+    /* background-color: lightsalmon; */
+    
+}
+.address .content{
+    width: 337px;
+}
+.address p{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #9E9E9E;
+}
+.info-box .phone{
+    height: 24px;
+    display: flex;
+}
+.phone .icon{
+    width: 30px;
+    margin-right: 5px;
+}
+.phone .number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #9E9E9E;
+}
+.info-box .social-networks{
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a:hover{
+    opacity: 0.2;
+}
