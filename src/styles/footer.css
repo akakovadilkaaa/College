@@ -4,9 +4,10 @@
     background-image: url('../images/footer-background.png');
     height: 403px;
     mix-blend-mode: exclusion;
-    position:fixed;
+    /* position:fixed; */
     bottom: 0;
     width: 100%;
+    /* z-index: 3; */
 
     
 }
