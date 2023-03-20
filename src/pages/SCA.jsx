@@ -1,7 +1,7 @@
 import '../styles/departments/sca.css'
 export const SCA =()=>{
     return <div className="SCA">
-        <h3 className="title">Программное обеспечение вычислительной техники и автоматизированных систем</h3>
+        <p className="title">Программное обеспечение вычислительной техники и автоматизированных систем</p>
         <div className="block-image">
             <ul> 
                 <li> Алгоритмизация и основы программирования</li>
