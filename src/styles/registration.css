@@ -1,0 +1,31 @@
+.Reg{
+    margin-left: 42px;
+    padding-right: 81px;
+}
+.Reg .title{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 95px;
+    margin-bottom: 67px;
+}
+.Reg p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 0px;
+
+}
+.Reg ul{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom:55px;
+    margin-top:10px;
+}
