@@ -30,7 +30,7 @@ export const Header =() =>{
                 <div className="nav-element"><img src='src\icons\logo.svg' id="mini-logo"/></div>
                 <div className="nav-element"><p className='button'>О НАС</p>
                     <div className="dropdown-content">
-                        <a href="#">Цель</a>
+                        <Link to='goal'>Цель</Link>
                         <a href="#">Новости колледжа</a>
                         <a href="#">Миссия и видение</a>
                     </div>
@@ -38,7 +38,7 @@ export const Header =() =>{
 
                 <div className="nav-element"><p className='button'>ПОСТУПЛЕНИЕ</p>
                     <div className="dropdown-content">
-                        <a href="#">Регистрация</a>
+                        <Link to='registration'>Регистрация</Link>
                         <a href="#">Абитурентам</a>
                        
                     </div>

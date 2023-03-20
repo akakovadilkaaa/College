@@ -1,0 +1,55 @@
+.ACO{
+    margin-left: 44px;
+}
+
+.title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 95px;
+}
+
+.block-image-1{
+    display: flex;
+    justify-content: space-between;
+}
+.block-image-1 ul{
+    width: 54%;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
+}
+.block-image-1 img{
+    margin-right: -150px;
+}
+
+.block-image-2{
+    display: flex;
+    justify-content: space-between;
+}
+.block-image-2 img{
+    padding-left: 40px;
+    margin-top: -60px;
+}
+.block-image-2 .t1{
+    text-align: right;
+}
+.text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 48px;
+    
+}
+.block-text-3 .title{
+    margin-bottom: 89px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+}

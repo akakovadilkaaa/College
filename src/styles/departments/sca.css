@@ -18,6 +18,8 @@
 
 }
 .block-image ul{
+    
+    padding: 0;
     width: 696px;
     font-family: 'Open Sans';
     font-style: normal;

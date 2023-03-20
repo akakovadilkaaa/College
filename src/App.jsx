@@ -9,6 +9,7 @@ import { SCA } from './pages/SCA'
 import { ACO } from './pages/ACO'
 import { DES } from './pages/DES'
 import { CSC } from './pages/CSC'
+import { Registration } from './pages/Registration'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path='/aco' element={<ACO/>}/>
             <Route path='/des' element={<DES/>}/>
             <Route path='/csc' element={<CSC/>}/>
+            <Route path='/registration' element={<Registration/>} />
           </Routes>
       </div>
       <Footer/>
